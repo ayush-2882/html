@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polka Dot Background</title>
+<style>
+body {
+margin: 0;
+padding: 0;
+background-color: black; /* Set the background color to black */
+}
+/* Create the polka dot pattern */
+body::before {
+content: "";
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: radial-gradient(circle, white 10%, transparent 10%); /* Create
+the polka dots */
+background-size: 1rem 1rem; /* Set the size of the pattern */
+background-position: 0 0, 0.5rem 0.5rem; /* Position the two gradients */
+z-index:-1;
+}
+</style>
+</head>
+<body>
+AYUSH (24/A08/039)
+<h1>Polka Dot Background</h1>
+<p>This is a polka dot background pattern created using HTML and CSS.</p>
+</body>
+</html>
