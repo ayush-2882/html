@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CSS Styles</title>
+ <!-- Internal CSS (within the <style> tag)-->
+ <style>
+ /* Internal CSS */
+ .internal {
+ color: red;
+ font-weight: bold;
+ }
+ </style>
+ <!-- External CSS (linking to an external stylesheet)-->
+ <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+ <h1>Internal, External, and Inline CSS</h1>
+ <!-- Inline CSS-->
+ <div style="color: rgb(208, 67, 194); font-weight: italic;">
+    <h2>Inline CSS</h2>
+    <p> <strong>inline CSS</strong>. The text is styled
+    using inline CSS directly applied to the &lt;div&gt; element.</p>
+    </div>
+ 
+  <!-- Internal CSS-->
+  <div class="internal">
+    <h2>Internal CSS</h2>
+    <p> <strong>internal CSS</strong>. The text is
+    styled using CSS defined in the &lt;style&gt; tag within the &lt;head&gt; section.</p>
+    </div>
+
+ <!-- External CSS-->
+ <div class="external">
+    <h2>External CSS</h2>
+    <p> <strong>external CSS</strong>. The text is
+    styled using CSS defined in an external stylesheet linked in the &lt;head&gt; section.</p>
+    </div>
+ AYUSH (24/A08/039)
+ </body>
+ </html>

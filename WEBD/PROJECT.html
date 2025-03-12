@@ -1,0 +1,237 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>main page</title>  
+<style>  
+*{  
+margin:0;  
+padding: 0;  
+box-sizing: border-box;  
+text-decoration: none;  
+}  
+.head1{  
+background-color:white;  
+width:100%;  
+height: 100%;  
+display: flex;  
+align-items: center;  
+justify-content: center;  
+border: 5px solid black;  
+border-radius: 4px;  
+padding-top: 20px;  
+flex-direction: column;  
+}  
+.head2{  
+background: #E074AF;  
+background: linear-gradient(180deg, #eb49a2, #4ACEE8);  
+height: 1400px;  
+width: 2200px;  
+box-shadow: 20px 0px 50px rgb(8, 8, 8) , -20px 0px 50px rgb(8, 8, 8);  
+padding: 12px;  
+}  
+.headcontent{  
+background-color: skyblue;  
+height: 100px;  
+width: 1800px;  
+border-radius: 10px;  
+border: 4px solid black;  
+display: flex;  
+justify-content: space-between;  
+}  
+.cname{font-size: 4rem;  
+font-family: cursive;  
+padding-left: 20px;  
+padding-bottom: 20px;  
+transition: all;
+transition-duration: 0.3s;  
+transition-delay: 0.001s;  
+}  
+.cname:hover{  
+color: rgb(252, 253, 251);  
+}  
+.content1{  
+display: flex;  
+gap:7px;  
+}  
+.nav{  
+display: none;  
+gap:1.5rem;  
+padding: 32px;  
+}  
+@media screen and (min-width:1100px){  
+.nav{  
+display: flex;  
+}  
+}  
+.nav-link{  
+color: black;  
+font-size: 1.9rem;  
+font-weight: 600;  
+transition: all;  
+transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);  
+transition-duration: 0.3s;  
+transition-delay: 0.001s;  
+}  
+.nav-link:hover{  
+transform: rotate(360deg);  
+color: rgb(241, 230, 72);  
+}  
+.contact-button{  
+background-color:rgb(107, 14, 107);  
+color:black;  
+width: 150px;  
+height: 80px;  
+border-radius: 0.625rem;  
+margin: 7px;  
+font-size: 2rem;  
+padding-top: 20px;  
+padding-left: 10px;  
+transition: all;  
+transition-duration: 0.3s;  
+transition-delay: 0.001s;
+display: none;  
+}  
+@media screen and (min-width:794px){  
+.contact-button{  
+display: block;  
+}  
+}  
+.contact-button:hover{  
+color: azure;  
+}  
+#logoji{  
+border: 2px solid black;  
+border-radius: 2px;  
+margin-top: 2px;  
+margin-left: 1px;  
+}  
+#logoji:hover{  
+transform: perspective(300px) translateZ(200px);  
+}  
+.head3{  
+display: flex;  
+flex-direction: row;  
+justify-content:space-between;  
+align-items: center;  
+width:2000px;  
+}  
+.head2{  
+padding-left: 200px;  
+}  
+.box1{  
+font-size: 3rem;  
+margin:4rem;  
+animation: slideFromLeft 1s ease forwards;  
+}  
+.box2{  
+font-size:6rem;  
+margin:4rem;  
+}  
+.section1{  
+gap: 8rem;  
+}  
+.box3{  
+font-size: 2rem;  
+margin:4rem;  
+}  
+.box4{  
+display: flex;
+flex-direction: row;  
+gap:4rem;  
+margin:4rem;  
+}  
+.button1{  
+width:200px;  
+height:100px;  
+background-color: rgb(107, 14, 107);  
+border-radius: 1rem;  
+font-size: 2.3rem;  
+padding-top: 1.6rem;  
+color:black;  
+}  
+.button1:hover{  
+color:white;  
+}  
+.button2:hover{  
+color:white;  
+}  
+.button2{  
+width:200px;  
+height:100px;  
+background-color: rgb(107, 14, 107);  
+border-radius: 1rem;  
+font-size: 2.3rem;  
+padding-top: 1.6rem;  
+color:black;  
+}  
+.last_head{  
+width:1300px;  
+height:100px;  
+display: flex;  
+justify-content: center;  
+align-items: center;  
+font-size: 2rem;  
+color:black;  
+margin-top: 60px;  
+background-color:skyblue;  
+border: 3px solid black;  
+border-radius: 15px;  
+animation: slideright;  
+animation-duration: 1s;  
+animation-delay: 0.2s;  
+animation-timing-function: linear;  
+}  
+.last_head:hover{  
+color:yellow;  
+}
+</style>  
+</head>  
+<body>  
+<div class="head1">  
+<div class="head2">  
+<header class="headcontent">  
+<a href="#logo" class="content1">  
+<img src="tree.jpg" alt="tree" height="90" width="90" id="logoji">  
+<span class="cname">DEEKATE</span>  
+</a>  
+<nav class="nav">  
+<a href="shoes.html" class="nav-link">Shoes</a> <!-- Link to shoes page -- 
+>  
+<a href="tshirts.html" class="nav-link">T-Shirts</a> <!-- Link to t-shirts 
+page -->  
+<a href="shirts.html" class="nav-link">Shirts</a> 
+<a href="blazer.html" class="nav-link">Blazer</a>  
+</nav>  
+<a href="#contact" class="contact-button">contact us</a>  
+</header>  
+<div class="head3">  
+<span class="section1">  
+<div class="box1"><center><b><i>BE READY TO CATCH</i></b></center></ 
+div>  
+<div class="box2">Get READY To Dive Into WORLD Of Fashion</div>  
+<div class="box3">we are leading manufacturer of mens daily-wears as 
+well as party-wear. since, 2017 we have  
+setup milestone in the feild of manufacturing we have many overseas 
+buyers including US and UK. we 
+are known for our high quallity fabrics and new designs.</div>  
+<div class="box4">  
+<a href="#explore" class="button1"><center><b>explore</b></ 
+center></a>  
+<a href="#try_free" class="button2"><center><b>Try Free</b></ 
+center></a>  
+</div>  
+</span>  
+<span class="section2">  
+<img src="eagle.png" alt="cloth" height="1000" width="1000">  
+</span>  
+</div>  
+<div class="last_head">  
+WE HAVE A HAPPY FAMILY OF ABOUT 1.2 BILLION MEMEBERS.<br>  
+come and lets make it BIGGER.  
+</div>  
+</div>  
+</div>
+</body>  
+</html>
